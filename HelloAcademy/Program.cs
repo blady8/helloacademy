@@ -16,7 +16,7 @@ namespace HelloAcademy
             Console.WriteLine("3 - Rubrica complessa");
             Console.WriteLine("0 - Exit");
             Console.Write("Selezione: ");
-            var selezione = ConsoleUtils.LeggiNumeroInteroDaConsole(1,3);
+            var selezione = Utils.LeggiNumeroInteroDaConsole(1,3);
 
             //Selezione della funzione da avviare
             switch(selezione)
