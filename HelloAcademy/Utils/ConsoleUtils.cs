@@ -4,10 +4,8 @@ using System.Text;
 
 namespace HelloAcademy.Utils
 {
-
     public static class ConsoleUtils
     {
-        //public static int LeggiNumeroInteroDaConsole(int minValue, int maxValue)
         public static int LeggiNumeroInteroDaConsole(int minValue, int maxValue)
         {
             //Leggo il valore stringa da console
@@ -60,5 +58,4 @@ namespace HelloAcademy.Utils
             Console.ReadKey();
         }
     }
-
 }
